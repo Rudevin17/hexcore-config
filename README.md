@@ -14,6 +14,12 @@ assets/banners/         banner images (wide, e.g. 1280x480 PNG/JPG)
 assets/logos/           logo images (square, e.g. 256x256 PNG)
 ```
 
+Image guidelines: PNG or JPEG, at most 8 MB and 8192 px per side. Banners are
+cropped to fit different shapes, and HEX CORE draws the server name over their
+left side, so keep logos, text and important detail in the centre-right.
+HEX CORE caches each image for up to 24 hours by URL: to replace an image,
+upload it under a **new file name** and update the URL in `servers.json`.
+
 HEX CORE fetches:
 `https://raw.githubusercontent.com/Rudevin17/hexcore-config/main/config/servers.json`
 

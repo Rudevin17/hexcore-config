@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "config_version": "1.1.0",
+  "config_version": "1.0.0",
   "last_updated": "2026-11-02",
   "servers": [
     {
@@ -19,7 +19,7 @@
       "executable": "Game.exe",
       "launch_args": [],
       "required_files": [],
-      "banner_url": "https://raw.githubusercontent.com/Rudevin17/hexcore-config/main/assets/banners/hellrise.png",
+      "banner_url": "https://raw.githubusercontent.com/Rudevin17/hexcore-config/main/assets/banners/hellrise-v2.png",
       "logo_url": "https://raw.githubusercontent.com/Rudevin17/hexcore-config/main/assets/logos/hellrise.png",
       "website_url": "",
       "discord_url": "",
@@ -28,11 +28,11 @@
     {
       "id": "spectre",
       "name": "Spectre Ran Online",
-      "description": "Experience the classic Ran Online with enhanced features, high rates and weekly events.",
+      "description": "Experience the classic Ran Online with enhanced features and high rates.",
       "episode": "EP9",
       "max_level": 350,
       "rate_type": "High Rates",
-      "status": "online",
+      "status": "maintenance",
       "latest_version": "2.3.1",
       "download_url": "",
       "file_size": 0,
@@ -47,14 +47,14 @@
       "last_updated": "2025-10-10"
     },
     {
-      "id": "nova",
-      "name": "Nova Ran Online",
-      "description": "A fresh EP7 server focused on balanced PvP and a steady progression curve.",
-      "episode": "EP7",
-      "max_level": 230,
-      "rate_type": "Mid Rates",
-      "status": "online",
-      "latest_version": "1.0.0",
+      "id": "quantum",
+      "name": "Quantum Ran Online",
+      "description": "Balanced progression with regular events and a focus on fair play.",
+      "episode": "EP9",
+      "max_level": 260,
+      "rate_type": "Balanced Rates",
+      "status": "offline",
+      "latest_version": "1.4.0",
       "download_url": "",
       "file_size": 0,
       "checksum_sha256": "",
@@ -65,7 +65,7 @@
       "logo_url": "",
       "website_url": "",
       "discord_url": "",
-      "last_updated": "2026-11-02"
+      "last_updated": "2025-09-28"
     }
   ]
 }
